@@ -9,7 +9,6 @@ import ru.netology.sender.MessageSender;
 import ru.netology.sender.MessageSenderImpl;
 
 public class Main {
-
     //Тестовый пример
     public static void main(String[] args) {
         GeoService geoService = new GeoServiceImpl();
