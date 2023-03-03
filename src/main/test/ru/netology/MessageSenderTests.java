@@ -21,8 +21,8 @@ public class MessageSenderTests {
         GeoService geoService = Mockito.spy(GeoServiceImpl.class);
         LocalizationService localizationService = Mockito.mock(LocalizationService.class);
         Mockito.when(localizationService.locale(Mockito.any())).thenReturn(expected);
-
         MessageSender sender = new MessageSenderImpl(geoService, localizationService);
+
         Map<String,String> headers = new HashMap<>();
         headers.put(MessageSenderImpl.IP_ADDRESS_HEADER, ip);
         String actual = sender.send(headers);
