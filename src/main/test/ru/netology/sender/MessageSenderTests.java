@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.sender;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.params.ParameterizedTest;

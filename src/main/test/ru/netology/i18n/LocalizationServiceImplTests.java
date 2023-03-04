@@ -1,4 +1,4 @@
-package ru.netology;
+package ru.netology.i18n;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.extension.ExtensionContext;
